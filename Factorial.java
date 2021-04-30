@@ -1,6 +1,11 @@
+package pruebaJunitFactorial;
 
 public class Factorial {
-	public static int calculo(int n)
+	public Factorial()
+	{
+		
+	}
+	public int calculo(int n)
 	{
 		if (n<0)
 		{
@@ -18,9 +23,3 @@ public class Factorial {
 	return fact;
 	}
 	
-	
-	
-	
-	
-	
-}
