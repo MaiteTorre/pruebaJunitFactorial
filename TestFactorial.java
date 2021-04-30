@@ -1,13 +1,14 @@
-import static org.junit.jupiter.api.Assertions.*;
+package pruebaJunitFactorial;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Scanner;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class TestFactorial {
+public class TestFactorial {
 
 	@Test
-	void test() {
+public	void test() {
 		Factorial f=new Factorial();
 		
 		Scanner sc=new Scanner(System.in);
@@ -19,6 +20,7 @@ class TestFactorial {
 		
 		assertEquals(res,resultado);
 		System.out.println("Factorial correcto!!");
+		sc.close();
 	}
 
 }
