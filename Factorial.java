@@ -1,5 +1,5 @@
 package pruebaJunitFactorial;
-
+//Clase Factorial
 public class Factorial {
 	public Factorial()
 	{
